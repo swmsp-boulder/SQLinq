@@ -149,7 +149,7 @@ namespace SQLinqTest
             Assert.AreEqual(14, actual.Parameters[":sqlinq_2"]);
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void ToSQL_003()
         {
             var target = new SQLinqCollection();
@@ -163,7 +163,7 @@ SELECT * FROM [ICar] WHERE [WheelDiameter] = @sqlinq_2
 ", actual);
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void ToSQL_004()
         {
             var guid = Guid.NewGuid();
@@ -205,7 +205,7 @@ INSERT [Person] ([ID], [FirstName], [LastName], [Age], [Is_Employed], [ParentID]
             Assert.AreEqual(null, actual.Parameters["@sqlinq_17"]);
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void ToSQL_005()
         {
             var guid = Guid.NewGuid();
@@ -266,7 +266,7 @@ END
             Assert.AreEqual(guid, actual.Parameters["@sqlinq_20"]);
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void ToSQL_006()
         {
             var guid = Guid.NewGuid();

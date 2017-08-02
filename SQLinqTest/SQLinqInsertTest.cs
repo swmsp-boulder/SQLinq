@@ -189,7 +189,7 @@ namespace SQLinqTest
             Assert.AreEqual(0, actual.Parameters["@sqlinq_4"]);
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void ToSQL_006()
         {
             var data = new PersonInsert
