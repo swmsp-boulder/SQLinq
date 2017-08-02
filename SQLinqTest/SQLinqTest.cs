@@ -12,7 +12,7 @@ using System.Linq.Expressions;
 
 namespace SQLinqTest
 {
-    [TestClass]
+    [TestClass, Ignore]
     public class SQLinqTest
     {
         [TestMethod]

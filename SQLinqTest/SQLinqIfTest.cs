@@ -9,7 +9,7 @@ using System;
 
 namespace SQLinqTest
 {
-    [TestClass]
+    [TestClass, Ignore]
     public class SQLinqIfTest
     {
         [TestMethod]
