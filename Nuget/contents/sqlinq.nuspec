@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>SQLinq</id>
-    <title>SQLinq</title>
+    <id>SQLinq3</id>
+    <title>SQLinq3</title>
     <version>3.0.1-b5</version>
     <authors>Chris Pietschmann</authors>
     <owners>Chris Pietschmann</owners>
